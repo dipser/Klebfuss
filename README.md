@@ -1,4 +1,4 @@
-Klebfuss
+Variabler Klebfuss
 ========
 
-Klebfuss (StickyFooter)
+Variabler Klebfuss (Variable StickyFooter)
