@@ -4,7 +4,7 @@ Variabler Klebfuss
 Variabler Klebfuss (Variable StickyFooter)
 
 
-Support: Standard Browser and IE8+
+Support: Standard Browsers; IE8+
 
 
 Beispiel:
