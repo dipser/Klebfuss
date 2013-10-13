@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <title>Klebfuß - StickyFooter</title>
+        <meta name="author" content="Aurelian Hermand" />
+        <style>
+            html, body, .table {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .table {
+                display: table;
+                width: 100%;
+            }
+            .row {
+                display: table-row;
+            }
+            .cell {
+                display: table-cell;
+                vertical-align: top;
+            }
+
+            .header {
+                
+            }
+            .main {
+                
+            }
+            .main .cell {
+                height: 100%;
+            }
+            .footer {
+                vertical-align: bottom;
+                min-height: 50px;
+            }
+
+            /* #Just for a nicer presentation */
+            .table, .row, .cell {outline:1px dashed silver;text-align: center;font-family:"Helvetica Neue", Helvetica, sans-serif;}
+            .header > div {padding:5px;background-color: #f1f1f1;color: #b4d455;text-shadow: 1px 1px 0 black;}
+            .main > div {padding:5px;color: #999999;}
+            .footer > div {padding:5px;background-color: #b4d455;color: blue;}
+            /* /Just for a nicer presentation */
+        </style>
+    </head>
+    <body>
+        
+
+        <div class="table">
+            <div class="row header">
+                <div class="cell">
+                    Asgard
+                </div>
+            </div>
+            <div class="row main">
+                <div class="cell">
+                    Odin<br /> Thor<br />
+                    Mimir<br /> Loki<br />
+                    Freya<br /> Baldur<br />
+                    Hugin<br /> Munin<br />
+                    Geri<br /> Freki<br />
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="cell">
+                    Flexible<br /> Sticky<br /> Footer<br />
+                    With<br /> CSS<br /> Tables<br />
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
+
+
